@@ -6,6 +6,7 @@ export default [
             "mango_loco": 3,
             "aussie_lemonade": 1,
             "pacific_punch": 1,
+            "peach": 1,
         }
     }
 ]
