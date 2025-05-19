@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, monospace;
+    color: rgb(240, 240, 240);
+}
+
+.content {
+    background-color: black;
+    min-height: 100vh; /* Ensure the content fills the viewport height */
+    display: flex;
+    flex-direction: column; /* Allow for vertical stacking of elements */
+}
+
+.main-title {
+    text-align: center;
+    font-size: 4vw;
+    color: #aaaaaa;
+}
+
+.main-content {
+    margin: 0 15vw;
+}
+
+.body-text {
+    font-size: 1.2vw;
+    color: #aaaaaa;
+    line-height: 1.3;
+}
+
+a {
+    color: #00bdca;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bdca;
+    text-decoration: dotted underline;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.2vw;
+    color: #aaaaaa;
+    padding: 2vw 0;
+    background-color: #222222;
+    
+}

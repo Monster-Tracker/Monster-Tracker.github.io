@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./index.js" type="module"></script>
+    <title>Monster Tracker</title>
+</head>
+<body>
+    <div class="content">
+        <div class="main-title">
+            <h1 class="typewriter">Monster Tracker</h1>
+        </div>
+        <div class="main-content">
+            <div class="quick-stats">
+                <div class="quick-stat">
+                    <p>Total Cans Consumed: <span class="countup" id="totalCansDrunk">{0}</span></p>
+                </div>
+                <div class="quick-stat">
+                    <p>Total Money Spent: <span class="countup" id="totalMoneySpent">{0}</span>&euro;</p>
+                </div>
+                <div class="quick-stat">
+                    <p>Liters Consumed: <span class="countup" id="litersDrunk">{0}</span>L</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <p>Here's how much we drank of each monster flavor:</p>
+            <div style="height: 50px;"></div>
+            <div class="chart-container">
+                <canvas id="flavorChart"></canvas>
+            </div>
+            <p>Last Updated 19.05.2025 20:51 UTC+2</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer-text">Made with ❤️ and 👽 by Benjamin and Lukas</p>
+        <p class="footer-text">© 2025 Benjamin Müller</p>
+        <p class="footer-text">Contact: <a target="_blank" href="mailto:benjamin.mueller@bsstudios.org">benjamin.mueller@bsstudios.org</a></p>
+        <a href="https://benjamin.bsstudios.org">Benjamin's Website</a>
+    </div>
+</body>
+</html>
+
+<!-- stop looking in my code sussy boy -->
