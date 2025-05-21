@@ -8,5 +8,15 @@ export default [
             "pacific_punch": 1,
             "peach": 1,
         }
+    },
+    {
+        date: "20.05.2025",
+        drinks: {
+            "mango_loco": 3,
+            "bad_apple": 1,
+            "the_doctor": 1,
+            "peach": 1,
+            "pacific_punch": 1,
+        }
     }
 ]
