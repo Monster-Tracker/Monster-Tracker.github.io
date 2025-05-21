@@ -27,4 +27,12 @@ export default {
         "name": "Pipeline Punch",
         "price": 1.49,
     },
+    "bad_apple": {
+        "name": "Bad Apple",
+        "price": 1.49,
+    },
+    "the_doctor": {
+        "name": "The Doctor",
+        "price": 1.49,
+    },
 }
